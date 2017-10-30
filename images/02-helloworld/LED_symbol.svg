@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="118" height="37" version="1.0">
+<path style="fill:none;fill-opacity:0.75;stroke:#000;stroke-width:2;stroke-linecap:round;stroke-linejoin:round" d="M10,24h35M100,24h-35l-20-12v24l20-12M65,12v24M10,24h35M65,4l-5,10M62,5l3-1l1,3M58,1l-5,10M55,2l3-1l1,3"/>
+<text style="font-size:8px;font-weight:normal;text-anchor:start;fill:#000;font-family:Sans">
+<tspan x="84.6" y="18.9">Cathode</tspan>
+<tspan x="0" y="18.9">Anode</tspan>
+</text>
+</svg>
