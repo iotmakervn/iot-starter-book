@@ -451,7 +451,46 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <div class="paragraph">
 <p> Ebook được tài trợ bởi <a href="https://iotmaker.vn" target="_blank">IoT Maker Việt Nam </a></p>
 <p>
-	<div class="fb-page" data-href="https://www.facebook.com/iotmaker.vn/" data-tabs="timeline" data-width="500" data-height="400" data-small-header="true" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/iotmaker.vn/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/iotmaker.vn/">IoT Maker Việt Nam</a></blockquote></div>
+	
+	<script src='http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js' type='text/javascript'></script>
+	<style type="text/css">
+	#fbox-background{display:none;background:rgba(0,0,0,0.8);width:100%;height:100%;position:fixed;top:0;left:0;z-index:99999}#fbox-close{width:100%;height:100%}#fbox-display{background:#eaeaea;border:5px solid #828282;width:340px;height:230px;position:absolute;top:32%;left:37%;-webkit-border-radius:5px;-moz-border-radius:5px;border-radius:5px}#fbox-button{float:right;cursor:pointer;position:absolute;right:0;top:0}#fbox-button:before{content:"CLOSE";padding:5px 8px;background:#828282;color:#eaeaea;font-weight:700;font-size:10px;font-family:Tahoma}#fbox-link,#fbox-link a.visited,#fbox-link a,#fbox-link a:hover{color:#aaa;font-size:9px;text-decoration:none;text-align:center;padding:5px}
+	</style>
+	<script type='text/javascript'>
+	//<![CDATA[
+	jQuery.cookie=function(a,b,c){if(arguments.length>1&&"[object Object]"!==String(b)){if(c=jQuery.extend({},c),null!==b&&void 0!==b||(c.expires=-1),"number"==typeof c.expires){var d=c.expires,e=c.expires=new Date;e.setDate(e.getDate()+d)}return b=String(b),document.cookie=[encodeURIComponent(a),"=",c.raw?b:encodeURIComponent(b),c.expires?"; expires="+c.expires.toUTCString():"",c.path?"; path="+c.path:"",c.domain?"; domain="+c.domain:"",c.secure?"; secure":""].join("")}c=b||{};var f,g=c.raw?function(a){return a}:decodeURIComponent;return(f=new RegExp("(?:^|; )"+encodeURIComponent(a)+"=([^;]*)").exec(document.cookie))?g(f[1]):null};
+	//]]>
+	</script>
+	<script type='text/javascript'>
+	jQuery(document).ready(function($) {
+		if ($.cookie('popup_facebook_box') != 'yes') {
+			$('#fbox-background').delay(5000).fadeIn('medium');
+			$('#fbox-button, #fbox-close').click(function() {
+				$('#fbox-background').stop().fadeOut('medium');
+			});
+		}
+		$.cookie('popup_facebook_box', 'yes', {
+			path: '/',
+			expires: 7
+		});
+	});
+	</script>
+	<div id='fbox-background'>
+	<div id='fbox-close'>
+	</div>
+	<div id='fbox-display'>
+	<div id='fbox-button'>
+	</div>
+	
+		<div class="fb-page" data-href="https://www.facebook.com/iotmaker.vn/" data-tabs="timeline" data-width="500" data-height="400" data-small-header="true" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true">
+			<blockquote cite="https://www.facebook.com/iotmaker.vn/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/iotmaker.vn/">IoT Maker Việt Nam</a>
+			</blockquote>
+		</div>
+	<div id="fbox-link">Powered by <a style="padding-left: 0px;" href="https://iotmaker.vn" rel="nofollow">IoT Maker</a></div>
+	</div>
+	</div>
+
+	
 </p>
 <p><strong>Internet Of Things (IoT)</strong> – <strong>Internet vạn vật</strong> dường như đang đứng trước một bước ngoặt để đi đến giai đoạn tiếp theo cho một thế giới hiện đại, văn minh. Đó là viễn cảnh mà mọi vật đều có thể kết nối với nhau thông qua Internet không dây. Các doanh nghiệp đang có xu hướng ứng dụng sản phẩm công nghệ IoT vào sản xuất ngày càng nhiều bởi thị trường sáng tạo tiềm năng và chi phí sản xuất ngày càng thấp.</p>
 </div>
